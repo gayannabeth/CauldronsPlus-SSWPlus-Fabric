@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "cauldronsplus_sswplus",
+	"version": "${version}",
+	"name": "Cauldrons Plus and Stairs Slabs Walls Plus Compat",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cauldronsplus_sswplus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"gay.mountainspring.cauldronsplus_sswplus.CauldronsPlusAndStairsSlabsWallsPlusCompat"
+		],
+		"client": [
+			"gay.mountainspring.cauldronsplus_sswplus.CauldronsPlusAndStairsSlabsWallsPlusCompatClient"
+		],
+		"fabric-datagen": [
+			"gay.mountainspring.cauldronsplus_sswplus.CauldronsPlusAndStairsSlabsWallsPlusCompatDataGenerator"
+		]
+	},
+	"mixins": [
+		"cauldronsplus_sswplus.mixins.json",
+		{
+			"config": "cauldronsplus_sswplus.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
