@@ -1,0 +1,9 @@
+{
+  "parent": "cauldronsplus:block/template_slime_cauldron_level8",
+  "textures": {
+    "bottom": "sswplus:block/exposed_copper_cauldron_bottom",
+    "inside": "sswplus:block/exposed_copper_cauldron_inner",
+    "side": "sswplus:block/exposed_copper_cauldron_side",
+    "top": "sswplus:block/exposed_copper_cauldron_top"
+  }
+}

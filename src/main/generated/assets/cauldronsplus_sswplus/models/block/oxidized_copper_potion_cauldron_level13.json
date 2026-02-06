@@ -1,0 +1,10 @@
+{
+  "parent": "cauldronsplus:block/template_cauldron24_level13",
+  "textures": {
+    "bottom": "sswplus:block/oxidized_copper_cauldron_bottom",
+    "content": "minecraft:block/water_still",
+    "inside": "sswplus:block/oxidized_copper_cauldron_inner",
+    "side": "sswplus:block/oxidized_copper_cauldron_side",
+    "top": "sswplus:block/oxidized_copper_cauldron_top"
+  }
+}

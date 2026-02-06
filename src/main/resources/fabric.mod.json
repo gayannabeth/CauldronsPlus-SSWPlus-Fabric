@@ -3,26 +3,27 @@
 	"id": "cauldronsplus_sswplus",
 	"version": "${version}",
 	"name": "Cauldrons Plus and Stairs Slabs Walls Plus Compat",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A compatability mod that adds the contents of cauldrons plus cauldrons into sswplus cauldron variants",
 	"authors": [
-		"Me!"
+		"gayannabeth"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"email": "mountainspring379@gmail.com",
+		"discord": "https://discord.gg/8KZvZHq",
+		"sources": "https://github.com/gayannabeth/CauldronsPlus-SSWPlus-Fabric"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/cauldronsplus_sswplus/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"gay.mountainspring.cauldronsplus_sswplus.CauldronsPlusAndStairsSlabsWallsPlusCompat"
+			"gay.mountainspring.cauldronsplus_sswplus.CSSWPlus"
 		],
 		"client": [
-			"gay.mountainspring.cauldronsplus_sswplus.CauldronsPlusAndStairsSlabsWallsPlusCompatClient"
+			"gay.mountainspring.cauldronsplus_sswplus.client.CSSWPClient"
 		],
 		"fabric-datagen": [
-			"gay.mountainspring.cauldronsplus_sswplus.CauldronsPlusAndStairsSlabsWallsPlusCompatDataGenerator"
+			"gay.mountainspring.cauldronsplus_sswplus.datagen.CSSWPDataGen"
 		]
 	},
 	"mixins": [
@@ -36,6 +37,9 @@
 		"fabricloader": ">=0.18.4",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"aquifer": "*",
+		"sswplus": "*",
+		"cauldronsplus": "*"
 	}
 }

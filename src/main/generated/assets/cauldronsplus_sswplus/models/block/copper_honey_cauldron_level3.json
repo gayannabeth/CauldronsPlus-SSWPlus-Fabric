@@ -1,0 +1,9 @@
+{
+  "parent": "cauldronsplus:block/template_honey_cauldron_level3",
+  "textures": {
+    "bottom": "sswplus:block/copper_cauldron_bottom",
+    "inside": "sswplus:block/copper_cauldron_inner",
+    "side": "sswplus:block/copper_cauldron_side",
+    "top": "sswplus:block/copper_cauldron_top"
+  }
+}

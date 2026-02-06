@@ -1,0 +1,9 @@
+{
+  "parent": "cauldronsplus:block/template_slime_cauldron_level4",
+  "textures": {
+    "bottom": "sswplus:block/netherite_cauldron_bottom",
+    "inside": "sswplus:block/netherite_cauldron_inner",
+    "side": "sswplus:block/netherite_cauldron_side",
+    "top": "sswplus:block/netherite_cauldron_top"
+  }
+}

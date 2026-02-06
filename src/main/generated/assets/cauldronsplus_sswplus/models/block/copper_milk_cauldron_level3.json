@@ -1,0 +1,10 @@
+{
+  "parent": "cauldronsplus:block/template_cauldron4_level3",
+  "textures": {
+    "bottom": "sswplus:block/copper_cauldron_bottom",
+    "content": "cauldronsplus:block/milk_still",
+    "inside": "sswplus:block/copper_cauldron_inner",
+    "side": "sswplus:block/copper_cauldron_side",
+    "top": "sswplus:block/copper_cauldron_top"
+  }
+}
